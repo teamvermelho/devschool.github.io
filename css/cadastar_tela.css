@@ -85,6 +85,13 @@ section#novo-projeto form .form-control textarea {
 #cancelar{
     background-color: #DC6418;
    }
-#arquivo{
-    background-color: #325798;
+ #arquivo{
+       background-color: #467DDF;
+   }
+input[type="file"] {
+    display: none;
+    
 }
+
+
+
