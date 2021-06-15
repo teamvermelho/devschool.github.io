@@ -1,0 +1,50 @@
+div.modal{
+    margin: 370px 600px;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    border-radius: 3px solid #DC6418;
+    width: 600px;
+    height: 190px;
+    background:#E5E5E5 ;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.corpo {
+    width: 600px;
+    height: 100px;
+    justify-content: center;
+}
+.corpo h3{
+    text-align: center;
+    font-family: Roboto;
+}
+
+.corpo h4{
+    text-align: center;
+    font-family: Roboto;
+}
+#botao{
+    
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        gap: 10px;
+}
+.button {
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    background-color: #61AB28;
+    transition: all 0.3s;
+}
+#cancelar {
+    background-color: #DC6418;
+}

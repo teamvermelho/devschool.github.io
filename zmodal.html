@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="css/modal.css" rel="stylesheet">
+ 
+
+  <!-- Normalize -->
+  
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/novo_projeto.css">
+  <title>Document</title>
+</head>
+<body>
+  <a href="#abrirModal">Projeto </a>
+
+  <div id="abrirModal" class="modal">
+    <header></header>
+    <section id="novo-projeto">
+      <h1>Cadastrar Projeto</h1>
+      <form>
+        <div class="form-control">
+          <input class="entrada" type="text" placeholder="Nome do Projeto">
+        </div>
+        <div class="form-control">
+          <span>Status</span>
+          <div>
+            <input type="radio" name="status" value="ativo" id="ativo" checked>
+            <label for="ativo">Ativo</label>
+          </div>
+          <div>
+            <input type="radio" name="status" value="inativo" id="inativo">
+            <label for="inativo">Inativo</label>
+          </div>
+        </div>
+        <div class="form-control">
+          <textarea class="entrada" name="descrição" id="descricao" placeholder="Descrição"></textarea>
+        </div>
+  
+        <div class="form-control">
+          <a href="#"class="button"id="cancelar"> Cancelar</a>
+          <a href=""class="button"> OK</a>
+        </div>
+    </section>
+  </div>
+</body>
+</html>
