@@ -1,0 +1,85 @@
+<html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto+Slab:700|Roboto:400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <title> Home -  Mobicare</title>
+</head>
+
+<body onload="load()">
+    <nav class="navegacao">
+        <div class="navegacao__box">
+            <a class="navegacao__logo" href="home.html">
+                <img class="img-responsive" src="imagens/logo-mobicare-akross.png" alt="Logotipo da Mobicare e Akross ">
+            </a>
+
+            <div class="navegacao__itens">
+                
+            </div>
+           
+        </div>
+    </nav>
+
+    <header class="header">
+        <div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div id="projects_list" class="container-list">
+                <div id="table_list_header">
+                    <div id="table_header_buttons" class="table-header-buttons-div">
+                    <div id="slider_div" class="table-header-div">
+                        <p>Mostar apenas ativos</p>
+                        <label id="slider_label" class="switch">
+                            <input id="slider_input" type="checkbox">
+                            <span id="slider_span" class="slider"></span>
+                        </label>
+                    </div>
+                    <div id="add_div" class="table-header-div">
+                        <p>Cadastrar</p>
+                        <a href="cadastrar_versao.html" class="add-button">+</a>
+                    </div>
+                    <div id="selected_project_div" class="table-header-div" style="display: block;">
+                        <a href="dashboard-project.html">
+                            <span id="selected_project_close" class="close" style="color: rgb(70, 125, 223);">×</span>
+                        </a>
+                        <p>DevSchool 2.0</p>
+                    </div>
+                    <div id="selected_project_div" class="table-header-div" style="display: block;">
+                        <a href="dashboard-version.html">
+                            <span id="selected_project_close" class="close" style="color: rgb(70, 125, 223);">×</span>
+                        </a>
+                        <p>Versão: 18037</p>
+                    </div>
+                    <div id="selected_version_div" class="table-header-div" style="display: none;"><span id="selected_version_close" class="close" style="color: rgb(70, 125, 223);">×</span><p></p></div></div></div>
+
+                    <a href="alterar_tela.html">
+                        <img src="imagens/prot.png" width="100%"> <!-- AQUELA GAMBI QUE A GENTE RESPEITA -->
+                    </a>
+
+                <!-- <div id="page-div" class="page-div">
+                    <p id="back-button" class="page-button">&lt;</p>
+                    <p id="show-page" class="page">1</p>
+                    <p id="foward-button" class="page-button">&gt;</p>
+                </div> -->
+            </div>               
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__principal"></div>
+                           
+        
+        <div class="rodape__cc">
+            <p>DevSchool 2.0 | 2021</p>
+        </div>
+    </footer>
+
+    <script src="script/projects2.js"></script>
+
+
+</body></html>
